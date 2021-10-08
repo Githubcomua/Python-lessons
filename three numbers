@@ -1,0 +1,15 @@
+a = int (input ())
+b = int (input ())
+c = int (input ())
+if a >= b and a >= c and c >= b:
+    print (a, b, c, sep='\n')
+elif a >= b and a >= c and b >= c:
+    print (a, c, b, sep='\n')
+elif b >= a and b >= c and c >= a:
+    print (b, a, c, sep='\n')
+elif b >= a and b >= c and a >= c:
+    print (b, c, a, sep='\n')
+elif c >= a and c >= b and b >= a:
+    print (c, a, b, sep='\n')
+elif c >= a and c >= b and a >= b:
+    print (c, b, a, sep='\n')
