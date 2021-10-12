@@ -1,0 +1,13 @@
+a, b = int(input()), int(input())
+s = a
+z = b
+if a < b:
+	while s % b != 0:
+		s += a
+	print (s)
+elif a > b:
+	while z % a != 0:
+		z += b
+	print (z)	
+elif a == b:
+	print (b)
